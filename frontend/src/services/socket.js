@@ -27,7 +27,7 @@ function _connect() {
   const proto = location.protocol === 'https:' ? 'wss' : 'ws';
   let baseUrl = import.meta.env.VITE_WS_URL;
   if (!baseUrl) {
-    baseUrl = `${proto}:
+    baseUrl = `${proto}://${location.host}/ws`;
   }
   const url = `${baseUrl}?token=${encodeURIComponent(token)}`;
   try {
