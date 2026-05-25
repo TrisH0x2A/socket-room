@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Socket Room</h1>
-  <p>A sleek, ultra-fast, retro-terminal styled real-time chat application.</p>
+  <p>A sleek, retro-terminal styled real-time chat application.</p>
   
   <p>
     <img src="https://img.shields.io/badge/Made_by-Trish0x2a-00ff00?style=for-the-badge&logo=github" alt="Author" />
